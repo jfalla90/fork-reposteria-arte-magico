@@ -1,0 +1,67 @@
+body{
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: white;
+ 
+}
+
+.header h1{
+    margin: 0%;
+    font-weight: 400;
+    font-size: 3rem;
+    font-style: italic;
+    color: white;
+    padding:6rem;
+    text-decoration: double;
+    text-align: left;
+}
+
+.header{
+    height: 20rem;
+    padding: 4rem;
+    background-image: url(../imgs/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*Estilos para la tabla*/
+
+.productos table{
+    width: 50%;
+    margin: auto;
+    padding: auto;
+    background: white;
+    vertical-align: auto;
+}
+.productos thead{
+    border: 0%;
+    height: 20%;
+    line-height: 5rem;
+}
+
+.productos th, p{
+    color: #592C28;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 300rem;
+  
+}
+.productos th{
+    font-size: 2rem;
+    padding: 0%;
+}
+
+.productos img{
+    height: 15rem;
+    background-size: cover;
+    border: solid 1px #ddd;
+} 
+
+.footer {
+    height: 3rem;
+    line-height: 2em;
+    background-color:#F2A9A2;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    
+}
